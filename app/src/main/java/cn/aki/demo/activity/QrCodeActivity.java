@@ -97,4 +97,5 @@ public class QrCodeActivity extends Activity implements View.OnClickListener{
     private void toScan(){
         new IntentIntegrator(this).initiateScan();
     }
+
 }
